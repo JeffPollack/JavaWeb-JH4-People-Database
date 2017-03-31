@@ -1,0 +1,58 @@
+JH4 worksheet
+Comments:
+
+***************** Class Participation    *****************
+Your Class Participation Entry for JH4:
+Discussion board containing your entry: JH4 - Questions/Answers 
+Date of your Entry: 10/6/16
+Subject Line of your entry: jsp files not working on Tomcat
+
+
+
+***************** Running One-Liner on a Tomcat Server Running under Netbeans on your PC    *********
+
+JING URL demoing your Program.
+
+http://screencast.com/t/aAMTtnZRH
+
+Any optional comments regarding this problem.
+
+
+***************** Running One-Liner on a Tomcat Server Running on a Linux Server    *********
+
+JING URL demoing your Program.
+
+http://screencast.com/t/hBthzomw
+
+Any optional comments regarding this problem.
+
+
+
+***************** Running One-Liner on the russet.wccnet.edu:8000 Linux Tomcat Server    *********
+
+JING URL demoing your Program.
+
+http://screencast.com/t/Q5d4oJLjPK0z
+
+URL to your website hosted on russet.wccnet.edu:8000
+
+http://russet.wccnet.edu:8000/JH4_jdpollack/OneLinerJSP.jsp
+
+Any optional comments regarding this problem.
+____________________________________
+
+
+
+***************** Person Collection    *********
+
+JING URL demoing your Program.
+
+http://screencast.com/t/gtGC3MxJz1mN
+
+URL to your website hosted on russet.wccnet.edu:8000
+
+http://russet.wccnet.edu:8000/JH4_jdpollack/PersonCollection.jsp
+
+
+Any optional comments regarding this problem.
+____________________________________

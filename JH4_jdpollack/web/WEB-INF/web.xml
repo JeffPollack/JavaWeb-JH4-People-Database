@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>OneLinerServlet</servlet-name>
+        <servlet-class>oneliners.OneLinerServlet</servlet-class>
+        <init-param>
+            <param-name>onelinerFile</param-name>
+            <param-value>oneliners.txt</param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>OneLinerJSP</servlet-name>
+        <jsp-file>/OneLinerJSP.jsp</jsp-file>
+        <init-param>
+            <param-name>onelinerFile</param-name>
+            <param-value>/WEB-INF/oneliners.txt</param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>InterestServ</servlet-name>
+        <servlet-class>interest2.InterestServ</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>interestJSP</servlet-name>
+        <jsp-file>/interestJSP.jsp</jsp-file>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>OneLinerServlet</servlet-name>
+        <url-pattern>/OneLinerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OneLinerJSP</servlet-name>
+        <url-pattern>/OneLinerJSP</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>InterestServ</servlet-name>
+        <url-pattern>/InterestServ</url-pattern>
+    </servlet-mapping>    
+    <servlet-mapping>
+        <servlet-name>interestJSP</servlet-name>
+        <url-pattern>/interestJSP</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
